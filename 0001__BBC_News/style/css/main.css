@@ -1,0 +1,34 @@
+/* line 1, ../sass/_tags.scss */
+ul {
+  margin: 0;
+}
+
+/* line 1, ../sass/_classes.scss */
+.center {
+  height: 100%;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/_ids.scss */
+#menu_first {
+  height: 40px;
+  border-bottom: 1px solid #CCC;
+}
+
+/* line 6, ../sass/_ids.scss */
+#bbc_headline {
+  height: 56px;
+  background-color: #BB1919;
+}
+
+/* line 11, ../sass/_ids.scss */
+#menu_second {
+  height: 36px;
+  background-color: #BB1919;
+}
+
+/* line 16, ../sass/_ids.scss */
+#menu_third {
+  height: 40px;
+}
