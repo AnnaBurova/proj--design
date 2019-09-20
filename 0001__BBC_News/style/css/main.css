@@ -15,20 +15,28 @@ ul {
   height: 40px;
   border-bottom: 1px solid #CCC;
 }
+/* line 5, ../sass/_ids.scss */
+#menu_first .logo {
+  height: 100%;
+  width: 114px;
+  background-image: url("../images/BBC-logo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
-/* line 6, ../sass/_ids.scss */
+/* line 14, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
   background-color: #BB1919;
 }
 
-/* line 11, ../sass/_ids.scss */
+/* line 19, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
   background-color: #BB1919;
 }
 
-/* line 16, ../sass/_ids.scss */
+/* line 24, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }

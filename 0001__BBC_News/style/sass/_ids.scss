@@ -1,6 +1,14 @@
 #menu_first {
   height: 40px;
   border-bottom: 1px solid $border-gray;
+
+  .logo {
+    height: 100%;
+    width: 114px;
+    background-image: url('../images/BBC-logo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
 
 #bbc_headline {
