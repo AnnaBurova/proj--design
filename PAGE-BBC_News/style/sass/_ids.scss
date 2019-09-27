@@ -8,6 +8,12 @@
     background-image: url('../images/BBC-logo.svg');
     background-position: center center;
     background-repeat: no-repeat;
+
+    a {
+      display: block;
+      height: 100%;
+      color: rgba(0, 0, 0, 0);
+    }
   }
 }
 

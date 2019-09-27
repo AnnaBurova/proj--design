@@ -23,20 +23,26 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
 }
+/* line 12, ../sass/_ids.scss */
+#menu_first .logo a {
+  display: block;
+  height: 100%;
+  color: rgba(0, 0, 0, 0);
+}
 
-/* line 14, ../sass/_ids.scss */
+/* line 20, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
   background-color: #BB1919;
 }
 
-/* line 19, ../sass/_ids.scss */
+/* line 25, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
   background-color: #BB1919;
 }
 
-/* line 24, ../sass/_ids.scss */
+/* line 30, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }
