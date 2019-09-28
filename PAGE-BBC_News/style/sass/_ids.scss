@@ -23,8 +23,8 @@
     float: left;
     width: 177px;
     height: 100%;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    border-right: 1px solid $border-gray;
+    border-left: 1px solid $border-gray;
     box-sizing: border-box;
 
     &:hover {
