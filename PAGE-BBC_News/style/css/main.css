@@ -15,6 +15,10 @@ ul {
 a {
   text-decoration: none;
 }
+/* line 15, ../sass/_tags.scss */
+a span {
+  color: #333;
+}
 
 /* line 1, ../sass/_classes.scss */
 .center {
