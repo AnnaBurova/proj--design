@@ -1,6 +1,18 @@
 /* line 1, ../sass/_tags.scss */
+body {
+  font-family: Helvetica, Arial, FreeSans, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+/* line 7, ../sass/_tags.scss */
 ul {
   margin: 0;
+}
+
+/* line 11, ../sass/_tags.scss */
+a {
+  text-decoration: none;
 }
 
 /* line 1, ../sass/_classes.scss */
@@ -14,8 +26,10 @@ ul {
 #menu_first {
   height: 40px;
   border-bottom: 1px solid #CCC;
+  font-size: 1.3em;
+  font-weight: 700;
 }
-/* line 5, ../sass/_ids.scss */
+/* line 7, ../sass/_ids.scss */
 #menu_first .logo {
   float: left;
   width: 114px;
@@ -24,26 +38,53 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 13, ../sass/_ids.scss */
+/* line 15, ../sass/_ids.scss */
 #menu_first .logo a {
   display: block;
   height: 100%;
   color: rgba(0, 0, 0, 0);
 }
+/* line 22, ../sass/_ids.scss */
+#menu_first .sign_in {
+  float: left;
+  width: 177px;
+  height: 100%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* line 30, ../sass/_ids.scss */
+#menu_first .sign_in:hover {
+  border-bottom: 4px solid #18B;
+}
+/* line 34, ../sass/_ids.scss */
+#menu_first .sign_in a {
+  display: block;
+  height: 100%;
+  padding: 6px 9px 6px 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 2.27em;
+  background-image: url("../images/sign-in.svg");
+  background-position: 14px 11px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+}
 
-/* line 21, ../sass/_ids.scss */
+/* line 48, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
   background-color: #BB1919;
 }
 
-/* line 26, ../sass/_ids.scss */
+/* line 53, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
   background-color: #BB1919;
 }
 
-/* line 31, ../sass/_ids.scss */
+/* line 58, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }

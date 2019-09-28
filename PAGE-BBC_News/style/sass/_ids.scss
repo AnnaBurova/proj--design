@@ -1,6 +1,8 @@
 #menu_first {
   height: 40px;
   border-bottom: 1px solid $border-gray;
+  font-size: 1.3em;
+  font-weight: 700;
 
   .logo {
     float: left;
@@ -14,6 +16,31 @@
       display: block;
       height: 100%;
       color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .sign_in {
+    float: left;
+    width: 177px;
+    height: 100%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+
+    &:hover {
+      border-bottom: 4px solid #18B;
+    }
+
+    a {
+      display: block;
+      height: 100%;
+      padding: 6px 9px 6px 42px;
+      box-sizing: border-box;
+      line-height: 2.27em;
+      background-image: url('../images/sign-in.svg');
+      background-position: 14px 11px;
+      background-repeat: no-repeat;
+      background-size: 22px;
     }
   }
 }
