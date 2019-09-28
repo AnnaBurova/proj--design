@@ -60,6 +60,34 @@
         box-sizing: border-box;
         list-style: none;
 
+        &.nav_home:hover {
+          border-bottom: 4px solid #000;
+        }
+        &.nav_news:hover {
+          border-bottom: 4px solid #BB1919;
+        }
+        &.nav_sport:hover {
+          border-bottom: 4px solid #FFD230;
+        }
+        &.nav_reel:hover {
+          border-bottom: 4px solid #0068FF;
+        }
+        &.nav_worklife:hover {
+          border-bottom: 4px solid #0052A1;
+        }
+        &.nav_travel:hover {
+          border-bottom: 4px solid #589E50;
+        }
+        &.nav_future:hover {
+          border-bottom: 4px solid #002856;
+        }
+        &.nav_culture:hover {
+          border-bottom: 4px solid #482878;
+        }
+        &.nav_more:hover {
+          border-bottom: 4px solid #262626;
+        }
+
         a {
           display: block;
           height: 100%;

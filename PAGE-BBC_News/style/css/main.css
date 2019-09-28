@@ -96,7 +96,43 @@ a span {
           box-sizing: border-box;
   list-style: none;
 }
-/* line 61, ../sass/_ids.scss */
+/* line 63, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_home:hover {
+  border-bottom: 4px solid #000;
+}
+/* line 66, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_news:hover {
+  border-bottom: 4px solid #BB1919;
+}
+/* line 69, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_sport:hover {
+  border-bottom: 4px solid #FFD230;
+}
+/* line 72, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_reel:hover {
+  border-bottom: 4px solid #0068FF;
+}
+/* line 75, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_worklife:hover {
+  border-bottom: 4px solid #0052A1;
+}
+/* line 78, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_travel:hover {
+  border-bottom: 4px solid #589E50;
+}
+/* line 81, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_future:hover {
+  border-bottom: 4px solid #002856;
+}
+/* line 84, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_culture:hover {
+  border-bottom: 4px solid #482878;
+}
+/* line 87, ../sass/_ids.scss */
+#menu_first .nav ul li.nav_more:hover {
+  border-bottom: 4px solid #262626;
+}
+/* line 91, ../sass/_ids.scss */
 #menu_first .nav ul li a {
   display: block;
   height: 100%;
@@ -105,19 +141,19 @@ a span {
           box-sizing: border-box;
 }
 
-/* line 72, ../sass/_ids.scss */
+/* line 102, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
   background-color: #BB1919;
 }
 
-/* line 77, ../sass/_ids.scss */
+/* line 107, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
   background-color: #BB1919;
 }
 
-/* line 82, ../sass/_ids.scss */
+/* line 112, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }
