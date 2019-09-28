@@ -43,6 +43,30 @@
       background-size: 22px;
     }
   }
+
+  .nav {
+    float: left;
+    height: 100%;
+
+    ul {
+      overflow: hidden;
+      height: 100%;
+
+      li {
+        display: block;
+        float: left;
+        height: 100%;
+        list-style: none;
+
+        a {
+          display: block;
+          height: 100%;
+          padding: 14px 21px;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
 }
 
 #bbc_headline {

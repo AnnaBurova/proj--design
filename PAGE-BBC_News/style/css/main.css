@@ -8,9 +8,10 @@ body {
 /* line 7, ../sass/_tags.scss */
 ul {
   margin: 0;
+  padding: 0;
 }
 
-/* line 11, ../sass/_tags.scss */
+/* line 12, ../sass/_tags.scss */
 a {
   text-decoration: none;
 }
@@ -71,20 +72,45 @@ a {
   background-repeat: no-repeat;
   background-size: 22px;
 }
+/* line 47, ../sass/_ids.scss */
+#menu_first .nav {
+  float: left;
+  height: 100%;
+}
+/* line 51, ../sass/_ids.scss */
+#menu_first .nav ul {
+  overflow: hidden;
+  height: 100%;
+}
+/* line 55, ../sass/_ids.scss */
+#menu_first .nav ul li {
+  display: block;
+  float: left;
+  height: 100%;
+  list-style: none;
+}
+/* line 61, ../sass/_ids.scss */
+#menu_first .nav ul li a {
+  display: block;
+  height: 100%;
+  padding: 14px 21px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-/* line 48, ../sass/_ids.scss */
+/* line 72, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
   background-color: #BB1919;
 }
 
-/* line 53, ../sass/_ids.scss */
+/* line 77, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
   background-color: #BB1919;
 }
 
-/* line 58, ../sass/_ids.scss */
+/* line 82, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }
