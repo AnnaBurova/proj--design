@@ -1,5 +1,20 @@
+.hidden {
+  display: none;
+}
+
 .center {
   width: 1280px;
   height: 100%;
   margin: 0 auto;
+}
+
+.icon_arrow_down {
+  display: block;
+  width: 6px;
+  height: 3px;
+  position: relative;
+  bottom: 7px;
+  left: 84px;
+  background-image: url('../images/icon-arrow-down.gif');
+  background-repeat: no-repeat;
 }
