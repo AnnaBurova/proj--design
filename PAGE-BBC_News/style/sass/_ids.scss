@@ -3,12 +3,12 @@
   border-bottom: 1px solid $border-gray;
 
   .logo {
-    height: 100%;
+    float: left;
     width: 114px;
+    height: 100%;
     background-image: url('../images/BBC-logo.svg');
     background-position: center center;
     background-repeat: no-repeat;
-    float: left;
 
     a {
       display: block;

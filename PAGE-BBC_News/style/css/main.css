@@ -5,8 +5,8 @@ ul {
 
 /* line 1, ../sass/_classes.scss */
 .center {
-  height: 100%;
   width: 1280px;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -17,12 +17,12 @@ ul {
 }
 /* line 5, ../sass/_ids.scss */
 #menu_first .logo {
-  height: 100%;
+  float: left;
   width: 114px;
+  height: 100%;
   background-image: url("../images/BBC-logo.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  float: left;
 }
 /* line 13, ../sass/_ids.scss */
 #menu_first .logo a {
