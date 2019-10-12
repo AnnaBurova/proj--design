@@ -1,0 +1,157 @@
+body {
+  background-color: #EFEFEF;
+  font-family: Handlee, cursive;
+  font-size: 13pt;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1200px;
+}
+
+h1 {
+  color: #20BCD5;
+  font-size: 15pt;
+  margin: 0 0 10px 0;
+  padding: 18px 0 18px 0;
+  text-align: center;
+}
+h1 span {
+  border: 4px dashed #20BCD5;
+  padding: 10px;
+}
+
+header {
+  background-color: #FFF;
+  background-image: url("images/header.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  margin: auto;
+}
+header p {
+  color: #3B464C;
+  font-size: 25pt;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 5px;
+  text-align: center;
+}
+
+article {
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+blockquote {
+  font-size: 12pt;
+  margin-top: 10px;
+  text-align: right;
+}
+
+table {
+  font-size: 11pt;
+  width: 100%;
+}
+table, th, td {
+  border: 2px solid #CECECE;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+}
+td.selected {
+  background-color: #F36F48;
+  color: #FFF;
+  font-weight: bold;
+}
+
+ul li {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+progress {
+  background: #EFEFEF;
+  color: #3FB6B2;
+  height: 20px;
+  width: 90%;
+}
+progress::-webkit-progress-bar {
+  background: #EFEFEF;
+}
+progress::-webkit-progress-value {
+  background: #3FB6B2;
+}
+progress::-moz-progress-bar {
+  background: #EFEFEF;
+  color: #3FB6B2;
+}
+
+iframe {
+  border: 3px solid #3FB6B2;
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+input,
+textarea {
+  display: block;
+  width: 70%;
+  margin: 5px auto;
+  margin-bottom: 10px;
+  border: 1px solid #CECECE;
+  border-radius: 5px;
+  padding: 15px 10px 10px;
+  background-color: #EFEFEF;
+  color: #787575;
+  font-size: 11pt;
+  outline: none;
+}
+textarea {
+  height: 100px;
+}
+input.submit {
+  border: none;
+  border-radius: 5px;
+  background-color: #3FB6B2;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+input.submit:hover {
+  background-color: #43A09D;
+}
+
+article#contacts {
+  text-align: center;
+}
+article#contacts a {
+  text-decoration: none;
+}
+article#contacts img {
+  width: 50px;
+  height: 50px;
+  margin: 0 7px;
+}
+article#contacts img:hover {
+  opacity: 0.8;
+}
+
+footer.copyright {
+  padding-bottom: 10px;
+  color: grey;
+  font-size: 8pt;
+  text-align: right;
+}
