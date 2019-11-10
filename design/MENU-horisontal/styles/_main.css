@@ -1,0 +1,33 @@
+body {
+  min-width: 1200px;
+  background-color: #FFD9AD;
+}
+
+aside {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #CCC;
+  color: #333;
+}
+
+main {
+  float: left;
+  width: 1000px;
+  background-color: #555;
+}
+
+footer {
+  clear: both;
+  width: 1200px;
+  padding: 10px 25px;
+  background-color: #444;
+  color: #BBB;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
