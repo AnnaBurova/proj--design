@@ -84,15 +84,15 @@ progress {
   height: 20px;
   width: 90%;
 }
+progress::-moz-progress-bar {
+  background: #EFEFEF;
+  color: #3FB6B2;
+}
 progress::-webkit-progress-bar {
   background: #EFEFEF;
 }
 progress::-webkit-progress-value {
   background: #3FB6B2;
-}
-progress::-moz-progress-bar {
-  background: #EFEFEF;
-  color: #3FB6B2;
 }
 
 iframe {
