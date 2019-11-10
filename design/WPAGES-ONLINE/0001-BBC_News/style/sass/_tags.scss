@@ -1,0 +1,26 @@
+body {
+  font-family: Helvetica, Arial, FreeSans, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+  span {
+    color: $color-main;
+  }
+}
+
+body {
+  height: 8000px; /* DELETE */
+  background-image: url('../../design/menu.png'); /* DELETE */
+  background-position: top center; /* DELETE */
+  background-repeat: no-repeat; /* DELETE */
+  opacity: 0.8; /* DELETE */
+}

@@ -20,6 +20,20 @@ a span {
   color: #333;
 }
 
+/* line 20, ../sass/_tags.scss */
+body {
+  height: 8000px;
+  /* DELETE */
+  background-image: url("../../design/menu.png");
+  /* DELETE */
+  background-position: top center;
+  /* DELETE */
+  background-repeat: no-repeat;
+  /* DELETE */
+  opacity: 0.8;
+  /* DELETE */
+}
+
 /* line 1, ../sass/_classes.scss */
 .hidden {
   display: none;
@@ -100,7 +114,6 @@ a span {
 }
 /* line 51, ../sass/_ids.scss */
 #menu_first .nav ul {
-  overflow: hidden;
   height: 100%;
 }
 /* line 55, ../sass/_ids.scss */
@@ -169,19 +182,19 @@ a span {
           box-sizing: border-box;
 }
 
-/* line 102, ../sass/_ids.scss */
+/* line 113, ../sass/_ids.scss */
 #bbc_headline {
   height: 56px;
-  background-color: #BB1919;
 }
 
-/* line 107, ../sass/_ids.scss */
+/* line 118, ../sass/_ids.scss */
 #menu_second {
   height: 36px;
-  background-color: #BB1919;
 }
 
-/* line 112, ../sass/_ids.scss */
+/* line 123, ../sass/_ids.scss */
 #menu_third {
   height: 40px;
 }
+
+/*# sourceMappingURL=main.css.map */
