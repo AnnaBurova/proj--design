@@ -17,6 +17,10 @@ p {
 }
 
 #wrapper {
+  padding-bottom: 40px;
+    padding-top: 1px;
+}
+#logo {
   position: relative;
   height: 220px;
   margin-top: 50px;
@@ -52,10 +56,23 @@ p {
   font-size: 120%;
 }
 
-.text-1 {
+.text-row1 {
   letter-spacing: 12px;
   font-size: 15px;
   position: relative;
   left: 25px;
   top: 10px;
+}
+.text-row2 {
+  color: #40B3DF;
+  letter-spacing: 12px;
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+  top: 20px;
+}
+.text-span {
+  background-color: #B4009E;
+  color:#FFFFFF;
+  padding: 0 10px;
 }
