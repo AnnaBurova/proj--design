@@ -17,13 +17,16 @@ p {
 }
 
 #wrapper {
-  padding-bottom: 40px;
-    padding-top: 1px;
+  padding: 40px;
+  margin: 40px;
+  border: 5px solid lightgray;
+  border-radius: 50px;
 }
 #logo {
   position: relative;
   height: 220px;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .block-blue {
