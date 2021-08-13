@@ -1,3 +1,5 @@
 # Projects: Design
 
-1. BBC News - https://www.bbc.com/news/uk - 20.09.2019
+## Same Page Different Stylesheets
+
+1. <https://www.w3schools.com/css/demo_default.htm> - 2021.08.13

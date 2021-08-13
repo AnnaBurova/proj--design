@@ -1,7 +1,11 @@
 body {
   font-family: Arial;
-  background-color: #D14836;
+  background-color: #d14836;
   line-height: 20px;
+}
+
+.container {
+  min-width: 900px;
 }
 
 .wrapper {
@@ -9,45 +13,45 @@ body {
   overflow: auto;
 }
 
-header {
-  color: #FFF;
+#top {
+  color: #ffffff;
   padding: 15px;
   font-size: 30px;
   line-height: 26px;
 }
 
-header h1 {
+#top h1 {
   margin: 0;
   line-height: 50px;
 }
 
-nav {
+#menubar {
   width: 190px;
   float: right;
 }
 
 #main {
   padding: 10px;
-  background-color: #FFF;
+  background-color: #ffffff;
   font: 80% Verdana;
 }
 
 #main h1,
 #main h2 {
-  color: #D14836;
+  color: #d14836;
 }
 
 #sidebar {
   background-color: #F6DAD7;
-  color: #D14836;
+  color: #d14836;
   padding: 10px;
 }
 
-footer {
+#bottom {
   text-align: center;
   padding: 10px;
   font-size: 70%;
-  color: #FFF;
+  color: #ffffff;
 }
 
 #menulist {
@@ -57,10 +61,10 @@ footer {
 
 .menuitem {
   width: 155px;
-  background-color: #D14836;
-  border: 1px solid #D14836;
+  background-color: #d14836;
+  border: 1px solid #d14836;
   border-radius: 40px;
-  color: #FFF;
+  color: #ffffff;
   list-style-type: none;
   margin: 10px;
   padding: 5px;
@@ -69,18 +73,18 @@ footer {
 }
 
 .menuitem:nth-child(2) {
- background-color: #FFF;
- color: #D14836;
- font-weight: bold;
+  background-color: white;
+  color: #d14836;
+  font-weight: bold;
 }
 
 .menuitem:hover {
-  background-color: #FFF;
-  color: #D14836;
+  background-color: #ffffff;
+  color: #d14836;
 }
 
 a {
-  color: #D14836;
+  color: #d14836;
   text-decoration: none;
 }
 
